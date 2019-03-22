@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.page-topic .page-cont { padding-top: 44px; background-color: #ffffff; line-height: 1.5;
+  img { width: 100%;}
+  .topic-title { margin: 15px; padding: 10px; border-bottom: solid 1px #dddddd; font-size: 18px; font-weight: bolder;}
+  .author-box { padding: 0 15px; display: flex;
+    .author-avatar { width: 40px; height: 40px; margin-right: 10px; overflow: hidden; border-radius: 50%;
+      img { width: 100%;}
+    }
+    .author-view { text-align: right; flex: 1; width: 0;}
+  }
+  .topic-content { padding: 15px; margin-top: 15px; border-bottom: solid 1px #dddddd;}
+  .topic-reply-count {  padding: 15px;
+    b { color: #80bd01; border-bottom: solid 1px #dddddd;}
+  }
+  .topic-reply {
+    .reply-list { width: 100%;
+      li { border-bottom: solid 1px #dddddd; padding: 10px 15px;
+        .reply-info { display: flex;
+          .reply-avatar { width: 40px; height: 40px; overflow: hidden; border-radius: 5px; margin-right: 10px;
+            img { width: 100%;}
+          }
+          .reply-desc { flex: 1; width: 0;}
+        }
+      }
+    }
+  }
+}
